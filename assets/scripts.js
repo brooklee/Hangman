@@ -108,20 +108,13 @@ window.onload = function () {
     lives = 10;
     counter = 0;
     space = 0;
-    result();
+    result()
   }
 
   play();
   
   
    // Reset
-
-  document.getElementById('reset').onclick = function() {
-    correct.parentNode.removeChild(correct);
-    letters.parentNode.removeChild(letters);
-    context.clearRect(0, 0, 400, 400);
-    play();
-  }
 }
 
 
