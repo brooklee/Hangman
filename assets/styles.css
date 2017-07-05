@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'Helvetica', sans-serif;
   color:white;
   height:100%;
   text-align:center;
@@ -26,12 +26,13 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
+  color: #56ddff;
 }
 
 p{
   font-size: 1em;
   font-family: 'Helvetica', sans-serif;
-  color: white;
+  color: #ff3891;
 }
 
 #alphabet {
@@ -45,13 +46,14 @@ p{
   float:left;
   margin: 0 10px 10px 0;
   list-style:none;
-  width:35px;
+  width:40px;
   height:30px;
   padding-top:10px;
   background:$white;
   border: solid 1px white;
   font-family: 'Helvetica', sans-serif;
   color: white;
+  border-radius: 200px;
 }
 
 #my-word {
@@ -87,6 +89,7 @@ button{
   padding:18px 10px;
   width:180px;
   margin: 10px;
+  border-radius:100px;
   }
     button:hover{
       background:white;
@@ -94,14 +97,3 @@ button{
       color:#333333;
 }
 
-@media (max-width: 760px) {
-  #alphabet {
-  padding:0 0 0 15px;
-}
-  }
-
-  @media (max-width: 450px) {
-  #alphabet {
-  padding:0 0 0 25px;
-}
-  }
