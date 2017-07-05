@@ -58,9 +58,8 @@ p{
 
 #my-word {
   margin: 0;
-  display: block;
   padding: 0;
-  display:block;
+  display:inline-block;
 }
 
 #my-word li {
