@@ -3,4 +3,4 @@
 
 <p>Hangman uses simple Javascript to create a fun and simple game!</p>
 
-<p> See it in action here </p>
+<p> See it in action <a href="https://brooklee1.github.io/Hangman/">here</a> </p>
